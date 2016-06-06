@@ -1,0 +1,57 @@
+{% extends "template.html" %}
+
+
+{% block prog %}
+
+  <div class="progress-bar" role="progressbar" aria-valuenow=25 aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+
+          <span class="sr-only">50% Complete</span>
+
+  </div>
+
+{% endblock %}
+
+
+{% block body %}
+
+<div class="container">
+    
+    <div class="content">
+        
+
+    <form action="{{ url_for('select') }}" method="POST">
+
+        <label for="minor1">Minor</label>
+        <input class="awesomplete" list="mylist" name="minor1" type="text"/>
+            <datalist id="mylist">
+                <option>Undecided</option>
+            </datalist>
+            <br />
+
+
+        <label for="minor2">Minor</label>
+        <input class="awesomplete" list="mylist" name="minor2" type="text" />
+            <datalist id="mylist">
+                <option>Undecided</option>
+            </datalist>
+            <br />
+
+        <input type = "submit" class="btn btn-primary btn-lg" role="button">
+       
+            <br />
+            
+    </form>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+{% endblock %}

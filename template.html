@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+
+<html lang=en> 
+<link rel='stylesheet', media = 'screen' href = "{{ url_for('static', filename= 'bootstrap.min.css') }}" >
+<link rel="stylesheet" href="awesomplete.css" />
+<script src="awesomplete.js" async></script>
+
+<head> 
+
+	<meta charset=utf-8>
+	<title>UrCollege</title>
+	<meta name="viewport" content = "width=device-width, initial-scale=1.0">
+
+</head>
+
+<header >
+	
+	<div class="container-fluid", style="background-color:#70dbdb">
+		
+		<div class="page-header", style="text-align:center">
+ 			 <h1>{{ title }}</h1>
+ 			 <h1><small>{{ subtext }}</small></h1>
+		</div>
+    
+
+	</div>
+
+	<div class="progress">
+
+		{% block prog %}
+		{% endblock %}
+
+
+
+	</div>
+
+
+</header>
+
+
+<body>
+	
+		{% block body %}
+		{% endblock %}
+
+</body>
+
+
+<footer class="footer">
+
+      <div class="container">
+        <p class="text-muted"> © Kamran Kara-Pabani, 2016</p>
+      </div>
+
+</footer>

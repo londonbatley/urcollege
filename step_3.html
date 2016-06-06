@@ -1,0 +1,232 @@
+{% extends "template.html" %}
+
+
+{% block prog %}
+
+  <div class="progress-bar" role="progressbar" aria-valuenow=75 aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+
+          <span class="sr-only">75% Complete</span>
+
+  </div>
+
+{% endblock %}
+
+{% block body %}
+
+<div class = "container">
+    
+    <div class="content">
+        
+
+    <form  method='POST' action="{{ url_for('results') }}">
+
+        <label for="c1">1</label>
+        <input class="awesomplete" list="mylist" name="c1" type="text"/>
+            <datalist id="mylist">
+
+                <option>No Selection</option>
+                <option>Affordability</option>
+                <option>Freshman Retention</option>
+                <option>Academic Reputation</option>
+                <option>Graduation Rate</option>
+                <option>Public School</option>
+                <option>Private School</option>
+                <option>Large Student Body</option>
+                <option>Medium Student Body</option>
+                <option>Small Student Body</option>
+
+                <option>Levels of Diversity</option>
+
+
+            </datalist>
+            <br />
+
+
+        <label for="c2">2</label>
+        <input class="awesomplete" list="mylist" name="c2" type="text"/>
+            <datalist id="mylist">
+                
+                <option>No Selection</option>
+                <option>Affordability</option>
+                <option>Freshman Retention</option>
+                <option>Academic Reputation</option>
+                <option>Graduation Rate</option>
+                <option>Public School</option>
+                <option>Private School</option>
+                <option>Large Student Body</option>
+                <option>Medium Student Body</option>
+                <option>Small Student Body</option>
+
+                <option>Levels of Diversity</option>
+
+            </datalist>
+            <br />
+
+        <label for="c3">3</label>
+        <input class="awesomplete" list="mylist" name="c3" type="text"/>
+            <datalist id="mylist">
+                <option>No Selection</option>
+                <option>Affordability</option>
+                <option>Freshman Retention</option>
+                <option>Academic Reputation</option>
+                <option>Graduation Rate</option>
+                <option>Public School</option>
+                <option>Private School</option>
+                <option>Large Student Body</option>
+                <option>Medium Student Body</option>
+                <option>Small Student Body</option>             
+
+                <option>Levels of Diversity</option>
+
+            </datalist>
+            <br />
+
+
+        <label for="c4">4</label>
+        <input class="awesomplete" list="mylist" name="c4" type="text"/>
+            <datalist id="mylist">
+                <option>No Selection</option>
+                <option>Affordability</option>
+                <option>Freshman Retention</option>
+                <option>Academic Reputation</option>
+                <option>Graduation Rate</option>
+                <option>Public School</option>
+                <option>Private School</option>
+                <option>Large Student Body</option>
+                <option>Medium Student Body</option>
+                <option>Small Student Body</option>               
+
+                <option>Levels of Diversity</option>
+
+            </datalist>
+            <br />
+
+
+        <label for="c5">5</label>
+        <input class="awesomplete" list="mylist" name="c5" type="text"/>
+            <datalist id="mylist">
+                <option>No Selection</option>
+                <option>Affordability</option>
+                <option>Freshman Retention</option>
+                <option>Academic Reputation</option>
+                <option>Graduation Rate</option>
+                <option>Public School</option>
+                <option>Private School</option>
+                <option>Large Student Body</option>
+                <option>Medium Student Body</option>
+                <option>Small Student Body</option>              
+
+                <option>Levels of Diversity</option>
+
+            </datalist>
+            <br />
+
+
+          <label for="c6">6</label>
+        <input class="awesomplete" list="mylist" name="c6" type="text"/>
+            <datalist id="mylist">
+                <option>No Selection</option>
+                <option>Affordability</option>
+                <option>Freshman Retention</option>
+                <option>Academic Reputation</option>
+                <option>Graduation Rate</option>
+                <option>Public School</option>
+                <option>Private School</option>
+                <option>Large Student Body</option>
+                <option>Medium Student Body</option>
+                <option>Small Student Body</option>              
+
+                <option>Levels of Diversity</option>
+
+            </datalist>
+            <br />
+
+          <label for="c7">7</label>
+        <input class="awesomplete" list="mylist" name="c7" type="text"/>
+            <datalist id="mylist">
+                <option>No Selection</option>
+                <option>Affordability</option>
+                <option>Freshman Retention</option>
+                <option>Academic Reputation</option>
+                <option>Graduation Rate</option>
+                <option>Public School</option>
+                <option>Private School</option>
+                <option>Large Student Body</option>
+                <option>Medium Student Body</option>
+                <option>Small Student Body</option>              
+
+                <option>Levels of Diversity</option>
+
+            </datalist>
+            <br />
+
+
+          <label for="c8">8</label>
+        <input class="awesomplete" list="mylist" name="c8" type="text"/>
+            <datalist id="mylist">
+                <option>No Selection</option>
+                <option>Affordability</option>
+                <option>Freshman Retention</option>
+                <option>Academic Reputation</option>
+                <option>Graduation Rate</option>
+                <option>Public School</option>
+                <option>Private School</option>
+                <option>Large Student Body</option>
+                <option>Medium Student Body</option>
+                <option>Small Student Body</option>             
+
+                <option>Levels of Diversity</option>
+
+            </datalist>
+            <br />
+
+
+           <label for="c9">9</label>
+        <input class="awesomplete" list="mylist" name="c9" type="text"/>
+            <datalist id="mylist">
+                <option>No Selection</option>
+                <option>Affordability</option>
+                <option>Freshman Retention</option>
+                <option>Academic Reputation</option>
+                <option>Graduation Rate</option>
+                <option>Public School</option>
+                <option>Private School</option>
+                <option>Large Student Body</option>
+                <option>Medium Student Body</option>
+                <option>Small Student Body</option>              
+
+                <option>Levels of Diversity</option>
+
+            </datalist>
+            <br />
+
+          <label for="c10">10</label>
+        <input class="awesomplete" list="mylist" name="c10" type="text"/>
+            <datalist id="mylist">
+                <option>No Selection</option>
+                <option>Affordability</option>
+                <option>Freshman Retention</option>
+                <option>Academic Reputation</option>
+                <option>Graduation Rate</option>
+                <option>Public School</option>
+                <option>Private School</option>
+                <option>Large Student Body</option>
+                <option>Medium Student Body</option>
+                <option>Small Student Body</option>             
+
+                <option>Levels of Diversity</option>
+
+            </datalist>
+            <br />
+
+        <input type = "submit" class="btn btn-primary btn-lg" value="Submit">
+       
+            
+    </form>
+
+
+    </div>
+
+</div>
+
+{% endblock %}
